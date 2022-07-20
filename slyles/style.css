@@ -192,7 +192,6 @@ fieldset {
 
 .form-label input {
   width: 100%;
-  /* display: inline-block; */
   height: 30px;
 }
 
@@ -230,7 +229,7 @@ textarea {
   height: 1em;
   flex-shrink: 0;
   flex-grow: 0;
-  border: 1px solid #adb5bd;
+  border: 2px solid #adb5bd;
   border-radius: 0.25em;
   margin-right: 0.5em;
   background-repeat: no-repeat;
@@ -283,7 +282,7 @@ textarea {
   height: 1em;
   flex-shrink: 0;
   flex-grow: 0;
-  border: 1px solid #adb5bd;
+  border: 2px solid #adb5bd;
   border-radius: 50%;
   margin-right: 0.5em;
   background-repeat: no-repeat;
