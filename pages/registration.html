@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../slyles/style.css">
+  <title>Регистрация</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navi">
+      <a href="articles.html">Статьи</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="page-nav.html">Навигация</a>
+      <a href="registration.html">Регистрация</a>
+      <a href="../index.html">Главная</a>
+    </div>
+
+    <h1 class="head1">Регистрация</h1>
+    <form class="text" action="https://tests.fomenko.top/echo/index.php" method="get">
+      <fieldset class="form-label">
+
+        <div>
+          <label for="fio"></label>
+          <input id="fio" type="text" placeholder="Фамилия Имя Отчество" name="fio">
+        </div>
+
+        <div>
+          <label for="image"></label>
+          <input id="image" type="file" name="image">
+        </div>
+
+        <div>
+          <label for="email"></label>
+          <input id="email" type="email" placeholder="адрес электронной почты" name="email">
+        </div>
+
+        <div>
+          <label for="passw"></label>
+          <input id="passw" type="password" placeholder="Пароль" name="passw">
+        </div>
+
+        <div>
+          <label for="site"></label>
+          <input id="site" type="url" placeholder="Адрес сайта" name="site" value="https://wwww.mysite.name">
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Пол</legend>
+        <div class="radio">
+          <input class="custom-radio" id="man" type="radio" name="gender" value="man">
+          <label for="man">Мужской</label>
+        </div>
+        <div class="radio">
+          <input class="custom-radio" id="woman" type="radio" name="gender" value="woman">
+          <label for="woman">Женский</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="form-label">
+          <label for="date">Дата рождения: </label>
+          <input type="date" id="date" name="date" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Предпочитаемая кухня</legend>
+        <div>
+          <input class="custom-checkbox" id="checkbox1" type="checkbox" name="checkboxname1" value="ukraine">
+          <label for="checkbox1">Украинская</label>
+        </div>
+        <div>
+          <input class="custom-checkbox" id="checkbox2" type="checkbox" name="checkboxname2" value="giorgian">
+          <label for="checkbox2">Грузинская</label>
+        </div>
+        <div>
+          <input class="custom-checkbox" id="checkbox3" type="checkbox" name="checkboxname3" value="chinese">
+          <label for="checkbox3">Китайская</label>
+        </div>
+        <div>
+          <input class="custom-checkbox" id="checkbox4" type="checkbox" name="checkboxname4" value="japan">
+          <label for="checkbox4">Японская</label>
+        </div>
+        <div>
+          <input class="custom-checkbox" id="checkbox5" type="checkbox" name="checkboxname5" value="italian">
+          <label for="checkbox5">Итальянская</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>О себе в произвольной форме</legend>
+        <div>
+          <label for="multi"></label>
+          <textarea name="txt" id="multi" placeholder="Напишите о себе в произвольной форме" cols="100"
+            rows="5"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div>
+          <button type="submit"><b>Отправить форму</b></button>
+          <button type="reset">Сбросить форму</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <footer>
+      &#169; Олександр Бородавко
+    </footer>
+  </div>
+</body>
+
+
+</html>
