@@ -183,7 +183,7 @@ fieldset {
   width: 36em;
   padding: 10px 20px;
   margin-top: 10px;
-  font-size: medium;
+  font: initial;
 }
 
 .form-label div {
