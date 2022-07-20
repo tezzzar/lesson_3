@@ -220,6 +220,7 @@ textarea {
   display: inline-flex;
   align-items: center;
   user-select: none;
+  margin: 3px;
 }
 
 .custom-checkbox+label::before {
@@ -269,10 +270,16 @@ textarea {
   opacity: 0;
 }
 
+.radio, .checkbox {
+background-color: #ffffff;
+border: 1px solid black;
+}
+
 .custom-radio+label {
   display: inline-flex;
   align-items: center;
   user-select: none;
+  margin: 3px;
 }
 
 .custom-radio+label::before {
@@ -280,8 +287,8 @@ textarea {
   display: inline-block;
   width: 1em;
   height: 1em;
-  flex-shrink: 0;
-  flex-grow: 0;
+  /* flex-shrink: 0; */
+  /* flex-grow: 0; */
   border: 2px solid #adb5bd;
   border-radius: 50%;
   margin-right: 0.5em;
