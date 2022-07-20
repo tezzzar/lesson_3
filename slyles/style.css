@@ -177,7 +177,7 @@ li {
 
 fieldset {
   max-width: 800px;
-  margin: 30px auto;
+  margin: 8px auto;
   background-color: #eaeaeab6;
   text-align: left;
   width: 36em;
@@ -189,12 +189,17 @@ fieldset {
 .form-label div {
   text-align: left;
   padding: 10px;
+  margin: 0 -10px;
 }
 
 .form-label input {
   width: 100%;
-  display: inline-block;
+  /* display: inline-block; */
   height: 30px;
+}
+
+fieldset p {
+margin: 8px 0%;
 }
 
 input[type="text"] {
