@@ -206,6 +206,7 @@ input[type="text"] {
 input[type="date"],
 input[type="image"] input[type="submit"] {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 textarea {
@@ -214,6 +215,7 @@ textarea {
   min-height: 75px;
   max-height: 33vh;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .custom-checkbox {
@@ -281,6 +283,7 @@ textarea {
   background-color: #ffffff;
   border: 1px solid black;
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .custom-radio+label {
