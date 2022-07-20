@@ -203,6 +203,11 @@ input[type="text"] {
   text-transform: capitalize;
 }
 
+input[type="date"],
+input[type="image"] input[type="submit"] {
+  margin-top: 10px;
+}
+
 textarea {
   width: 100%;
   resize: vertical;
