@@ -48,7 +48,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   gap: 3em;
-  padding: 2em 2em;
+  padding: 0% 2em;
   margin-right: 55px;
 }
 
@@ -131,6 +131,7 @@ li {
 .new {
   background-color: #5f1a1aca;
   border-radius: 5px;
+  padding: 0% 5px;
   text-transform: uppercase;
   color: #ffffffe2;
 }
