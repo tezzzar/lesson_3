@@ -207,6 +207,7 @@ textarea {
   resize: vertical;
   min-height: 75px;
   max-height: 33vh;
+  margin: 2px 0%;
 }
 
 .custom-checkbox {
