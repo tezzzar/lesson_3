@@ -24,7 +24,7 @@
     <h1 class="head1">Регистрация</h1>
     <form action="https://tests.fomenko.top/echo/index.php" method="get">
       <fieldset class="form-label">
-        <p>Заполните поля для регистрации:</p>
+        <legend>Заполните поля для регистрации</legend>
         <div>
           <label for="fio"></label>
           <input id="fio" type="text" placeholder="Фамилия Имя Отчество" name="fio">
@@ -45,19 +45,18 @@
           <input id="site" type="url" placeholder="адрес сайта" name="site">
           <input type="hidden" id="my_site" name="site" value="https://wwww.mysite.name">
         </div>
-
       </fieldset>
 
       <fieldset>
+        <legend>Укажите дату рождения</legend>
         <div class="form-label">
-          <p>Укажите дату рождения: </p>
           <label for="date"></label>
           <input type="date" id="date" name="date" />
         </div>
       </fieldset>
 
       <fieldset>
-        <p>Укажите пол:</p>
+        <legend>Выберите пол</legend>
         <div class="radio">
           <div>
             <input class="custom-radio" id="man" type="radio" name="gender" value="man">
@@ -71,35 +70,34 @@
       </fieldset>
 
       <fieldset>
-        <p>Предпочитаемая кухня:</p>
+        <legend>Предпочитаемая кухня</legend>
         <div class="checkbox">
           <div>
             <input class="custom-checkbox" id="checkbox1" type="checkbox" name="checkboxname1" value="ukraine">
-            <label for="checkbox1">Украинская</label>
+            <label for="checkbox1">украинская</label>
           </div>
           <div>
             <input class="custom-checkbox" id="checkbox2" type="checkbox" name="checkboxname2" value="giorgian">
-            <label for="checkbox2">Грузинская</label>
+            <label for="checkbox2">грузинская</label>
           </div>
           <div>
             <input class="custom-checkbox" id="checkbox3" type="checkbox" name="checkboxname3" value="chinese">
-            <label for="checkbox3">Китайская</label>
+            <label for="checkbox3">китайская</label>
           </div>
           <div>
             <input class="custom-checkbox" id="checkbox4" type="checkbox" name="checkboxname4" value="japan">
-            <label for="checkbox4">Японская</label>
+            <label for="checkbox4">японская</label>
           </div>
           <div>
             <input class="custom-checkbox" id="checkbox5" type="checkbox" name="checkboxname5" value="italian">
-            <label for="checkbox5">Итальянская</label>
+            <label for="checkbox5">итальянская</label>
           </div>
         </div>
-
       </fieldset>
 
       <fieldset>
+        <legend>Добавьте комментарии</legend>
         <div>
-          <p>Добавьте комментарии:</p>
           <label for="multi"></label>
           <textarea name="txt" id="multi" placeholder="Напишите о себе в произвольной форме" cols="100"
             rows="5"></textarea>
