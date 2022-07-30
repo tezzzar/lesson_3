@@ -174,29 +174,23 @@ li {
   box-shadow: 0px 0px 80px #4e4d4d88;
 }
 
-form {
-  max-width: 800px;
-  margin: 8px auto;
-  background-color: #eaeaeace;
+fieldset {
+  max-width: 500px;
+  margin: 10px auto;
+  background-color: #fbf5f5e7;
+}
+
+.form {
   text-align: left;
   width: 36em;
-  padding: 10px 20px;
+  padding: 10px 0px;
   font: -webkit-control;
-  /* border: 1px solid black;s */
 }
 
-.form-label input {
+select, input {
   width: 100%;
   height: 30px;
-  margin: 2px 0%;
-}
-
-fieldset p {
-  margin: 8px 0%;
-}
-
-fieldset {
-  margin: 5px 0%;
+  margin-top: 10px;
 }
 
 input[type="text"] {
@@ -208,7 +202,8 @@ textarea {
   resize: vertical;
   min-height: 75px;
   max-height: 33vh;
-  margin: 2px 0%;
+  padding: 10px 20px;
+  margin-top: 10px;
 }
 
 .custom-checkbox {
@@ -315,6 +310,12 @@ textarea {
 
 .custom-radio:disabled+label::before {
   background-color: #c4c7ca;
+}
+
+.buttons {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0%;
 }
 
 .map {

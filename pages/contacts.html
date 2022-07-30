@@ -42,27 +42,43 @@
       </div>
     </div>
     <form action="https://tests.fomenko.top/echo/index.php" method="get">
-      <fieldset class="form-label">
-
+      <fieldset>
         <legend>Форма обратной связи</legend>
-        <div>
-          <input id="name" type="text" placeholder="Фамилия Имя Отчество" name="name">
+        <div class="form">
+          <label for="name">имя
+            <input id="name" type="text" placeholder="Фамилия Имя Отчество" name="name">
+          </label>
         </div>
-        <div>
-          <input id="tel" type="tel" placeholder="телефон" name="tel">
+
+        <div class="form">
+          <label for="tel">телефон
+            <input id="tel" type="tel" placeholder="телефон" name="tel">
+          </label>
         </div>
-        <div>
-          <input id="email" type="email" placeholder="e-mail" name="email">
+
+        <div class="form">
+          <label for="email">эл.почта
+            <input id="email" type="email" placeholder="e-mail" name="email">
+          </label>
         </div>
-        <div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Задайте ваш вопрос</legend>
+        <div class="textarea">
+          <label for="comment">комментарии</label>
           <textarea name="comment" id="comment" placeholder="ваш вопрос" cols="100" rows="1"></textarea>
         </div>
-        <div>
-          <button type="submit"><b>Отправить</b></button>
-          <button type="reset">Очистить</button>
-        </div>
-
       </fieldset>
+
+      <fieldset>
+        <legend>Отправить</legend>
+        <div>
+          <button class="buttons" type="submit"><b>Отправить форму</b></button>
+          <button class="buttons" type="reset">Сбросить форму</button>
+        </div>
+      </fieldset>
+
     </form>
 
     <footer>
@@ -71,6 +87,5 @@
   </div>
 
 </body>
-
 
 </html>

@@ -22,100 +22,104 @@
     </div>
 
     <h1 class="head1">Регистрация</h1>
-
     <form action="https://tests.fomenko.top/echo/index.php" method="get">
-        <fieldset class="form-label">
-          <legend>Заполните поля для регистрации</legend>
-          <div>
-            <label for="fio"></label>
+      <fieldset>
+        <legend>Заполните поля для регистрации</legend>
+        <div class="form">
+          <label for="fio">фио
             <input id="fio" type="text" placeholder="Фамилия Имя Отчество" name="fio">
-          </div>
-          <div>
-            <label for="email"></label>
+          </label>
+        </div>
+        <div class="form">
+          <label for="email">адрес электронной почты
             <input id="email" type="email" placeholder="адрес электронной почты" name="email">
-          </div>
-          <div>
-            <label for="passw"></label>
+          </label>
+        </div>
+        <div class="form">
+          <label for="passw">пароль
             <input id="passw" type="password" placeholder="пароль" name="passw">
-          </div>
-          <div>
-            <label for="site"></label>
+          </label>
+        </div>
+        <div class="form">
+          <label for="site">адрес сайта
             <input id="site" type="url" placeholder="адрес сайта" name="site">
             <input type="hidden" id="my_site" name="site" value="https://wwww.mysite.name">
-          </div>
-        </fieldset>
+          </label>
+        </div>
+      </fieldset>
 
-        <fieldset>
-          <legend>Укажите дату рождения</legend>
-          <div class="form-label">
-            <label for="date"></label>
-            <input type="date" id="date" name="date" />
-          </div>
-        </fieldset>
+      <fieldset>
+        <legend>Укажите дату рождения</legend>
+        <div class="form">
+          <label for="date">дата рождения
+            <input type="date" id="date" name="date"></label>
+        </div>
+      </fieldset>
 
-        <fieldset>
-          <legend>Выберите пол</legend>
-          <div class="radio">
-            <div>
-              <input class="custom-radio" id="man" type="radio" name="gender" value="man">
-              <label for="man">мужской</label>
-            </div>
-            <div>
-              <input class="custom-radio" id="woman" type="radio" name="gender" value="woman">
-              <label for="woman">женский</label>
-            </div>
-          </div>
-        </fieldset>
-
-        <fieldset>
-          <legend>Предпочитаемая кухня</legend>
-          <div class="checkbox">
-            <div>
-              <input class="custom-checkbox" id="checkbox1" type="checkbox" name="checkboxname1" value="ukraine">
-              <label for="checkbox1">украинская</label>
-            </div>
-            <div>
-              <input class="custom-checkbox" id="checkbox2" type="checkbox" name="checkboxname2" value="giorgian">
-              <label for="checkbox2">грузинская</label>
-            </div>
-            <div>
-              <input class="custom-checkbox" id="checkbox3" type="checkbox" name="checkboxname3" value="chinese">
-              <label for="checkbox3">китайская</label>
-            </div>
-            <div>
-              <input class="custom-checkbox" id="checkbox4" type="checkbox" name="checkboxname4" value="japan">
-              <label for="checkbox4">японская</label>
-            </div>
-            <div>
-              <input class="custom-checkbox" id="checkbox5" type="checkbox" name="checkboxname5" value="italian">
-              <label for="checkbox5">итальянская</label>
-            </div>
-          </div>
-        </fieldset>
-
-        <fieldset>
-          <legend>Добавьте комментарии</legend>
+      <fieldset>
+        <legend>Выберите пол</legend>
+        <div class="radio">
           <div>
-            <label for="multi"></label>
-            <textarea name="txt" id="multi" placeholder="Напишите о себе в произвольной форме" cols="100"
-              rows="5"></textarea>
+            <input class="custom-radio" id="man" type="radio" name="gender" value="man">
+            <label for="man">мужской</label>
           </div>
-        </fieldset>
-
-        <fieldset>
-          <legend>Добавьте фотографию</legend>
           <div>
-            <label for="image"></label>
-            <input id="image" type="file" name="image">
+            <input class="custom-radio" id="woman" type="radio" name="gender" value="woman">
+            <label for="woman">женский</label>
           </div>
-        </fieldset>
+        </div>
+      </fieldset>
 
-        <fieldset>
+      <fieldset>
+        <legend>Предпочитаемая кухня</legend>
+        <div class="checkbox">
           <div>
-            <button type="submit"><b>Отправить форму</b></button>
-            <button type="reset">Сбросить форму</button>
+            <input class="custom-checkbox" id="checkbox1" type="checkbox" name="checkboxname1" value="ukraine">
+            <label for="checkbox1">украинская</label>
           </div>
-        </fieldset>
+          <div>
+            <input class="custom-checkbox" id="checkbox2" type="checkbox" name="checkboxname2" value="giorgian">
+            <label for="checkbox2">грузинская</label>
+          </div>
+          <div>
+            <input class="custom-checkbox" id="checkbox3" type="checkbox" name="checkboxname3" value="chinese">
+            <label for="checkbox3">китайская</label>
+          </div>
+          <div>
+            <input class="custom-checkbox" id="checkbox4" type="checkbox" name="checkboxname4" value="japan">
+            <label for="checkbox4">японская</label>
+          </div>
+          <div>
+            <input class="custom-checkbox" id="checkbox5" type="checkbox" name="checkboxname5" value="italian">
+            <label for="checkbox5">итальянская</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Добавьте комментарии</legend>
+        <div class="form">
+          <label for="txt">комментарии</label>
+          <textarea name="txt" id="multi" placeholder="Напишите о себе в произвольной форме" cols="100"
+            rows="5"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Добавьте фотографию</legend>
+        <div class="form">
+          <label for="image"></label>
+          <input id="image" type="file" name="image">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Отправить</legend>
+        <div>
+          <button class="buttons" type="submit"><b>Отправить форму</b></button>
+          <button class="buttons" type="reset">Сбросить форму</button>
+        </div>
+      </fieldset>
 
     </form>
 
