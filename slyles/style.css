@@ -184,7 +184,7 @@ fieldset {
   text-align: left;
   width: 36em;
   padding: 10px 0px;
-  font: -webkit-control;
+  /* font: -webkit-control; */
 }
 
 select, input {
